@@ -27,6 +27,7 @@ namespace MyTest4
     public partial class MyTest4Repository : RepoGenBaseFolder
     {
         static MyTest4Repository instance = new MyTest4Repository();
+        MyTest4RepositoryFolders.InusikbRxTestRepositoryGoogleChromAppFolder _inusikbrxtestrepositorygooglechrom;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest4Repository element repository.
@@ -43,6 +44,7 @@ namespace MyTest4
         public MyTest4Repository() 
             : base("MyTest4Repository", "/", null, 0, false, "cf3e02e8-344f-4a22-9641-41ef1f17827f", ".\\RepositoryImages\\MyTest4Repositorycf3e02e8.rximgres")
         {
+            _inusikbrxtestrepositorygooglechrom = new MyTest4RepositoryFolders.InusikbRxTestRepositoryGoogleChromAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace MyTest4
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The InusikbRxTestRepositoryGoogleChrom folder.
+        /// </summary>
+        [RepositoryFolder("8acbf742-c72e-4773-b7da-c7901d20088f")]
+        public virtual MyTest4RepositoryFolders.InusikbRxTestRepositoryGoogleChromAppFolder InusikbRxTestRepositoryGoogleChrom
+        {
+            get { return _inusikbrxtestrepositorygooglechrom; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,72 @@ namespace MyTest4
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
     public partial class MyTest4RepositoryFolders
     {
+        /// <summary>
+        /// The InusikbRxTestRepositoryGoogleChromAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8acbf742-c72e-4773-b7da-c7901d20088f")]
+        public partial class InusikbRxTestRepositoryGoogleChromAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _element199427872Info;
+
+            /// <summary>
+            /// Creates a new InusikbRxTestRepositoryGoogleChrom  folder.
+            /// </summary>
+            public InusikbRxTestRepositoryGoogleChromAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("InusikbRxTestRepositoryGoogleChrom", "/form[@title~'^inusikb/rx_TestRepository']", parentFolder, 30000, null, true, "8acbf742-c72e-4773-b7da-c7901d20088f", "")
+            {
+                _element199427872Info = new RepoItemInfo(this, "Element199427872", "element[@controlid='199427872']", 30000, null, "6427b092-ce60-48ce-a50b-5db7241ac767");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8acbf742-c72e-4773-b7da-c7901d20088f")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8acbf742-c72e-4773-b7da-c7901d20088f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Element199427872 item.
+            /// </summary>
+            [RepositoryItem("6427b092-ce60-48ce-a50b-5db7241ac767")]
+            public virtual Ranorex.Unknown Element199427872
+            {
+                get
+                {
+                    return _element199427872Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Element199427872 item info.
+            /// </summary>
+            [RepositoryItemInfo("6427b092-ce60-48ce-a50b-5db7241ac767")]
+            public virtual RepoItemInfo Element199427872Info
+            {
+                get
+                {
+                    return _element199427872Info;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

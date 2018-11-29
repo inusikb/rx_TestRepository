@@ -1,19 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTest4Repository"
+﻿<repository
 id="056e04ee-26d3-4188-a70a-1b8ecdab2e7d"
+name="MyTest4Repository"
 rxversion="8.3">
-  <codegen
-  classname="MyTest4Repository"
-  namespace="MyTest4"/>
-  <rootfolder
-  name="Root"
-  id="cf3e02e8-344f-4a22-9641-41ef1f17827f"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+	<codegen
+	classname="MyTest4Repository"
+	namespace="MyTest4">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cf3e02e8-344f-4a22-9641-41ef1f17827f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8acbf742-c72e-4773-b7da-c7901d20088f"
+		isrooted="True"
+		name="InusikbRxTestRepositoryGoogleChrom"
+		refpath="/form[@title='inusikb/rx_TestRepository - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="6427b092-ce60-48ce-a50b-5db7241ac767"
+			name="Element199427872"
+			refimgid="8663f1eb-a69a-4f0c-8601-c6aac1192078"
+			refpath="/form[@title~'^inusikb/rx_TestRepository']/element[@controlid='199427872']"
+			searchtimeout="30000ms">
+				/form[@title~'^inusikb/rx_TestRepository']/element[@controlid='199427872']
+			</item>
+			<basepath>
+				/form[@title~'^inusikb/rx_TestRepository']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

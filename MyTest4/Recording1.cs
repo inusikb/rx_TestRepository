@@ -79,6 +79,18 @@ namespace MyTest4
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InusikbRxTestRepositoryGoogleChrom.Element199427872' at 183;733.", repo.InusikbRxTestRepositoryGoogleChrom.Element199427872Info, new RecordItemIndex(0));
+            repo.InusikbRxTestRepositoryGoogleChrom.Element199427872.Click("183;733");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InusikbRxTestRepositoryGoogleChrom.Element199427872' at 214;474.", repo.InusikbRxTestRepositoryGoogleChrom.Element199427872Info, new RecordItemIndex(1));
+            repo.InusikbRxTestRepositoryGoogleChrom.Element199427872.Click("214;474");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'InusikbRxTestRepositoryGoogleChrom.Element199427872' at 223;297.", repo.InusikbRxTestRepositoryGoogleChrom.Element199427872Info, new RecordItemIndex(2));
+            repo.InusikbRxTestRepositoryGoogleChrom.Element199427872.Click("223;297");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
